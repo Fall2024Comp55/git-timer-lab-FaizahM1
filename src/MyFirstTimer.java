@@ -13,7 +13,7 @@ public class MyFirstTimer extends GraphicsProgram implements ActionListener {
     private TimerBall ball2;
     private Timer timer;
     private int steps;
-    private final int DELAY = 500; //delay of 500ms between each tick 
+    private final int DELAY = 500; //delay of 500ms between each tick  
     private final int MAX_STEPS = 10; //stop timer after 10 steps
 
     public void init() {
