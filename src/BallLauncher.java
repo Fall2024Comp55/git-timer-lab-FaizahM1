@@ -8,6 +8,7 @@ public class BallLauncher extends GraphicsProgram {
     public static final int SIZE = 25;
     public static final int SPEED = 2;
     public static final int MS = 50;
+    public static final int ENEMY_CREATION_INTERVAL = 40; //new constant 
     private ArrayList<GOval> balls;
 
     public void run() {
@@ -25,8 +26,8 @@ public class BallLauncher extends GraphicsProgram {
         }
 
         GOval newBall = makeBall(SIZE / 2, e.getY());
-        balls.add(newBall);  // Add the new ball to the list
-        add(newBall);  // Add the ball to the screen
+        balls.add(newBall);  
+        add(newBall); 
     }
 
     public GOval makeBall(double x, double y) {
