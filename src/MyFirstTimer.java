@@ -31,7 +31,7 @@ public class MyFirstTimer extends GraphicsProgram implements ActionListener {
         ball2 = new TimerBall(20, 60, 30, 30); 
         add(ball2);
 
-        //create a timer with initial delay of 3000 ms
+        //create a timer with initial delay of 3000ms
         timer = new Timer(DELAY, this);
         timer.setInitialDelay(3000); //set a 3-second delay before starting
         steps = 0; //initialize step count
